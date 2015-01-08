@@ -1,0 +1,28 @@
+{
+  "name": "ideabin",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Idea listing site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jsx": "./node_modules/.bin/jsx common/components/ lib/components/",
+    "bundle": "./node_modules/.bin/browserify browser/index.js -d > public/js/bundle.js"
+  },
+  "keywords": [
+    "idea",
+    "ideas",
+    "repository"
+  ],
+  "author": "Jess Telford <hi@jes.st> (http://jes.st)",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^7.0.0",
+    "react-tools": "^0.12.1"
+  },
+  "dependencies": {
+    "express": "^4.10.4",
+    "handlebars": "^2.0.0",
+    "react": "^0.12.1"
+  }
+}
