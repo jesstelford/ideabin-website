@@ -1,4 +1,6 @@
 lib/components/.module-cache/
+cert.pem
+key.pem
 
 # Created by https://www.gitignore.io
 
