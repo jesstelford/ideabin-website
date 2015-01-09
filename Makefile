@@ -68,10 +68,6 @@ test-components: components
 
 test: test-components
 
-generate-certs:
-	@openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -nodes -days 365
-	@echo "Generated private key key.pem, and certificate cert.pem"
-
 # Clean up after all other targets / start fresh
 clean:
 	@rm -rf lib
